@@ -1,3 +1,7 @@
+body{
+  margin: 20px;
+}
+
 h6 {
     color: #091133;
     text-align: left;
@@ -47,18 +51,19 @@ h6 {
   fill-opacity: 50%; */
 
   width: 1440px;
-  height: 600px;
+  height: 400px;
 } 
 
 #container03 {
   position: absolute;
-  top: 1110px;
+  top: 500px;
   
-  background-color:#222F65;
+  background-color: #FFFFFF;
+  
   fill-opacity: 50%;
 
   width: 1440px;
-  height: 1100px;
+  height: 400px;
 
 } 
 
@@ -66,33 +71,38 @@ h6 {
   position: absolute;
   top: 1000px;
   
-  background-color:#222F65;
+  background-color:#FFFFFF;
   fill-opacity: 50%;
 
   width: 1440px;
-  height: 569px;
+  height: 820px;
 
-  top: 1852px;
+  top: 920px;
 } 
 
  #container05 {
-   background-color:#E7ECFF;
+  background-color:#E7ECFF;
+  
    fill-opacity: 50%;
 
    width: 1440px;
-   height: 569px;
+   height: 300px;
 
-   top: 3607px;
+   position: absolute;
+   top: 1750px;
+   text-align: center;
+   align-content: center;
  }
 
  #container06 {
    /*background-color: #f50505;*/
 
    width: 1440px;
-   height: 546px;
+   height: 150px;
    
    position: absolute;
-   top: 4412px;;
+   top: 2070px;
+   margin-bottom: 10px;
  }
 
  .container {
@@ -104,13 +114,6 @@ h6 {
    width: 1440px;
    height: 546px;
    top: 3014px;
- }
-
- div {
-   border: 1px solid;
-   margin: 1px;
-   padding: 2px;
-   border-color: black;
  }
 
  #child-1 {
@@ -159,4 +162,78 @@ h6 {
   left: 100px;
   z-index: -1;
 
+}
+
+.links {
+  font-family: roboto;
+  font-size: 14px;
+  color: #505F98;
+
+  margin: 5px;
+}
+
+.purchase {
+  width: 160px;
+  height: 26px;
+ /* top: 18px;
+  left: 1115px;*/
+  background-color: #222F65;
+
+ /* position: absolute;*/
+  /*text-align: center;*/
+  font-size: 18px;
+  font-family: roboto;
+  color:#E7ECFF;
+}
+
+.buyNow{
+  width: 160px;
+  height: 26px;
+  top: 18px;
+  left: 1115px;
+  background-color: #222F65;
+
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  font-family: roboto;
+  color:#E7ECFF;
+}
+.blueButton{
+  width: 160px;
+  height: 26px;
+  top: 350px;
+  left: 60px;
+  background-color: #222F65;
+
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  font-family: roboto;
+  color:#E7ECFF;
+}
+
+.whiteButton{
+  width: 160px;
+  height: 26px;
+  top: 350px;
+  left: 250px;
+  background-color: #E7ECFF;
+
+  position: absolute;
+  text-align: center;
+  font-size: 14px;
+  font-family: roboto;
+  color:#222F65;
+
+  border: #091133 1px solid; 
+}
+
+
+
+div1 {
+  border: 1px solid;
+  margin: 1px;
+  padding: 2px;
+  border-color: black;
 }
